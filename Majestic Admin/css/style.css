@@ -10209,6 +10209,36 @@ pre code {
   border-color: #454d55;
 }
 
+.collab-input{
+  padding: 0 10px;
+}
+.collab-div{
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  max-width: 50%
+}
+@media screen and (max-width:420px){
+  .collab-div{
+    max-width: 100%;
+  }
+}
+
+.collab-input{
+  margin-bottom: 15px;
+}
+
+.collab-div-a{
+  color: black;
+}
+
+.collab-div-a:hover{
+  color: black;
+  text-decoration: none;
+}
+
+
+
 .table .thead-light th {
   color: #495057;
   background-color: #e9ecef;
@@ -11009,8 +11039,19 @@ fieldset:disabled a.btn {
 
 .plus-container p{
   margin-top: 9px;
-  margin-left: 20px;
   align-self: center;
+  color: black;
+}
+
+.plus-container button{
+  border-radius: 10px;
+  margin-right: 20px;
+}
+p{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.plus-container button:hover{
+  background-color: rgb(255, 223, 155);
 }
 
 .btn-danger:hover {
@@ -12909,6 +12950,66 @@ input[type="button"].btn-block {
   border-radius: 0;
 }
 
+.collab-card {
+  background-color: white;
+  display: flex;
+  max-width: 200px;
+  height: 200px;
+  text-align: center;
+  padding: 10px;
+}
+
+.button-container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.button-container button{
+  border:none;
+  margin-top: 10px;
+}
+.work-card{
+  background-color: white;
+  display: flex;
+  max-width: 200px;
+  height: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+.button-icon{
+  margin-left: -4px;
+  margin-top: -4px;
+  padding: 0;
+  width: 18px;
+  height: 18px;
+}
+
+.button-icon2{
+  margin-left: -8px;
+  margin-top: -4px;
+  padding: 0;
+  width: 25px;
+  height: 25px;
+}
+
+
+.work-card button{
+  width: 25px;
+  height: 25px;
+}
+
+.collab-card p {
+  margin: 5px 0;
+}
+
+.collab-card-img {
+  padding: 10px;
+  width: 100%;;
+  border-radius: 15px;
+}
+
 .card > hr {
   margin-right: 0;
   margin-left: 0;
@@ -13707,6 +13808,12 @@ a.badge-dark:focus, a.badge-dark.focus {
   border-top-right-radius: 0.25rem;
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0;
+}
+
+@media screen and (max-width:320px) {
+    .p-text{
+      font-size: 13px;
+    }
 }
 
 @media (min-width: 576px) {
@@ -19066,6 +19173,43 @@ code {
 .documentation .content-wrapper {
   padding-top: 0;
   min-height: calc(100vh - 75px);
+}
+
+.content-wrapper-coll{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.prise-container{
+  margin: 10px 15px;
+}
+
+.prise-input{
+  margin: 10px 10px;
+}
+
+.prise-button{
+  margin-left: 15px;
+  font-size: 12px;
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+
+.pole p {
+  margin-top: 8px;
+}
+
+.pole{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: #fff;
+  padding: 5px;
+  margin-top: 5px;
+  align-items: center;
 }
 
 .doc-header {

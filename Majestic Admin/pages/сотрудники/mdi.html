@@ -45,6 +45,7 @@
           </li>
           <li class="nav-item nav-profile dropdown">
             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
+              <img src="./../../images/faces/face5.jpg" alt="profile"/>
               <span class="nav-profile-name">Louis Barnett</span>
             </a>
             <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
@@ -63,15 +64,68 @@
     <!-- partial -->
     <div class="container-fluid page-body-wrapper">
       <!-- partial:../../partials/_sidebar.html -->
+      <nav class="sidebar sidebar-offcanvas" id="sidebar">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="./../../index.html">
+              <i class="mdi mdi-home menu-icon"></i>
+              <span class="menu-title">Главная</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./../сотрудники/mdi.html">
+              <i class="mdi mdi-emoticon menu-icon"></i>
+              <span class="menu-title">Сотрудники</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./../прайс/basic_elements.html">
+              <i class="mdi mdi-view-headline menu-icon"></i>
+              <span class="menu-title">Прайс-лист</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./../нашиработы/chartjs.html">
+              <i class="mdi mdi-chart-pie menu-icon"></i>
+              <span class="menu-title">Наша-работа</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./../Календарь/basic-table.html">
+              <i class="mdi mdi-grid-large menu-icon"></i>
+              <span class="menu-title">Календарь</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./../журнал/history.html">
+              <i class="mdi mdi-emoticon menu-icon"></i>
+              <span class="menu-title">Журнал</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./admin.html">
+              <i class="mdi mdi-emoticon menu-icon"></i>
+              <span class="menu-title">Администраторы</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
       <!-- partial -->
       <div class="main-panel">        
-        <div class="content-wrapper">
-          <a href="./collabForm.html">
-            <div class="plus-container">
-          <img src="./../../images/auth/plus.png" class="icon-plus" width="20px" alt="plus">
-          <p>Добавить сотрудника</p>
+        <div class="plus-container">
+          <button class="plus-button">
+              <a class="collab-div-a" href="./collabForm.html">
+                <p>Добавить сотрудника</p>
+              </a>
+      </button>
+      </div>
+        <div class="content-wrapper content-wrapper-coll">
+        <div class="card collab-card">
+          <img class="collab-card-img" src="./../../images/faces/face1.jpg" alt="">
+          <p class="p">Mike Olivier</p>
+          <p>Project Manager</p>
         </div>
-        </a>
+        
         </div>
         <!-- partial:../../partials/_footer.html -->
         <footer class="footer">
